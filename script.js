@@ -11,4 +11,4 @@ function dtb(decimal)
 		return binary.split('').reverse().join('');
 	
 	}
-module.exports=dtb;
+module.exports=dtb();
