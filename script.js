@@ -1,6 +1,14 @@
-function threeSum(arr, target) {
-// write your code here
-  
-}
+function dtb(decimal)
+	{
+		let binary='';
 
-module.exports = threeSum;
+		while(decimal>0)
+			{
+				const remainder=decimal%2;
+				binary+=remailder;
+				decimal=Math.floor(decimal/2);
+			}
+		return binary.split('').reverse().join('');
+	
+	}
+module.export=dtb;
