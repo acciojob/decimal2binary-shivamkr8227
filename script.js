@@ -5,10 +5,10 @@ function dtb(decimal)
 		while(decimal>0)
 			{
 				const remainder=decimal%2;
-				binary+=remailder;
+				binary+=remainder;
 				decimal=Math.floor(decimal/2);
 			}
 		return binary.split('').reverse().join('');
 	
 	}
-module.export=dtb;
+module.exports=dtb;
